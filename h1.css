@@ -1,0 +1,244 @@
+body{
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    background: #f7f7f7;
+    
+}
+.head{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	margin-top: 0px;
+}
+.logo-h{
+    width: 100px;
+    height: 100px;
+}
+.div1 p{
+    letter-spacing: 1px;
+    margin-left: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(41, 141, 207);
+
+}
+.main{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	margin-top: 0px;
+}
+.main .div{
+    display:grid;
+    flex-wrap: wrap;
+	justify-content: center;
+    background: transparent;
+    margin:10px ;
+    margin-left:6px;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 100px;
+    height: 180px;
+}
+.main .div-min {
+    flex-wrap: wrap;
+	justify-content: center;
+    background: black;
+    border-radius: 10px;
+    width: 100px;
+    height: 150px;
+    box-shadow: 5px 10px 20px 0 rgb(0, 0, 0);
+    transition: 1s;
+}
+.main .div-min:hover{
+    box-shadow: 5px 10px 20px 0 rgb(0, 132, 255);
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+.img{
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+    transition: 1s ;
+}
+.img:hover{
+    transform: scale(1.15);
+}
+.t-gaming{
+    margin-left:12px;
+    margin-top: -8px;
+    margin-bottom: 0px;
+    color: rgb(0, 65, 126);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+}
+.t-ai{
+    margin-left:40px;
+    margin-top: -8px;
+    margin-bottom: 0px;
+    color: rgb(0, 65, 126);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+}
+.t-l{
+    margin-left:20px;
+    margin-top: -8px;
+    margin-bottom: 0px;
+    color: rgb(0, 65, 126);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+}
+.media{
+    margin-top: 20px;
+    width:280px;
+    margin-left: 50px;
+    transform: translate(10%);
+    letter-spacing: 15px;
+}
+.media a{
+    width: 40px;
+    height: 40px;
+    background:transparent;
+    border-radius: 50%;
+    justify-content: center;
+    transition: 0.4s;
+    font-size: 25px;
+}
+.insta{
+    color: black;
+}
+.insta:hover{
+    color: rgba(255, 0, 179, 0.657);   
+}
+.fb{
+    color:black;
+    
+}
+.fb:hover{
+    color: rgb(0, 140, 255);  
+}
+.tele{
+    color:black;
+}
+.tele:hover{
+    color: rgb(33, 105, 153);  
+} 
+
+.media a{
+    margin-right: 15px;
+}
+
+.media a i{
+    transition: 0.5s all;
+}
+.media a:hover > i {
+    transform: scale(1.3);
+}
+.sm{
+    margin-top: 30px;
+    display: grid;
+    width: 330px;
+    height: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: rgb(0, 132, 255) solid 1px;
+}
+.tag{
+    width: 330px;
+    border-left: rgb(0, 132, 255) solid 1px;
+    border-right: rgb(0, 132, 255) solid 1px;
+}
+.sm h3{
+    width: 90px;
+    margin-left:36%;
+    margin-bottom: 0px;
+    color: rgb(0, 132, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+}
+.be{
+    margin-top: 30px;
+    display: grid;
+    width: 330px;
+    height: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-left: 1px solid rgb(0, 132, 255);
+    border-right: 1px solid rgb(0, 132, 255);
+    border-bottom: 1px solid rgb(0, 132, 255);
+    
+}
+.t-be{
+    width: 300px;
+    height: 50px;
+    border-top: 1px solid rgb(0, 132, 255);
+    border-bottom: 1px solid rgb(0, 132, 255);
+}
+.t-be h3{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(0, 132, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+}
+.p-be{
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+.p-be div{
+    width: 50%;
+    background: transparent;
+}
+.p2{
+    border-left: 1px solid rgb(0, 132, 255);
+}
+.p-be h5{
+    margin-top: -5px;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0px;
+}
+.p-be h6{
+    margin-top: -10px;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.568);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0px;
+}
+.p2 h6{
+    margin-left: 40px;
+}
+.p1 h6{
+    margin-left: 50px;
+}
+.p-be div div {
+    margin-top: -10px;
+    margin-left: 40px;
+    letter-spacing: 10px;
+}
+.fbinsta1{
+    font-size: 20px;
+    color: #000000;
+    transition: 0.5s;
+}
+.fbinsta1:hover{
+    color: rgb(255, 0, 140);
+}
+.fbinsta2{
+    font-size: 20px;
+    color: #000000;
+    transition: 0.5s;
+}
+.fbinsta2:hover{
+    color: rgb(0, 98, 255);
+}
+.star{
+    margin-top: 100px;
+}

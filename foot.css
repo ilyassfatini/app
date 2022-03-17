@@ -1,0 +1,324 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    background: #f7f7f7;
+    
+}
+.head{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	margin-top: 0px;
+}
+.logo-h{
+    width: 100px;
+    height: 100px;
+}
+.groups{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin-left: 15px;
+}
+.groups th{
+    background: rgb(92, 156, 240);
+    
+}
+.groups .n{
+    width: 60px;
+    height: 30px;
+    background-color: white;
+}
+.groups .p{
+    height: 30px;
+    width: 300px;
+    background-color: white;
+}
+#groups{
+    border-radius: 10px;
+    width: 600px;
+    justify-items: center;
+    align-items: center;
+    flex-wrap:wrap ;
+    display: grid;
+    border: 1px solid black;
+    background-color: transparent;
+    display: none;
+}
+.t-g{
+    margin-top: 20px;
+    margin-left:41%;
+    margin-bottom: -10px;
+}
+#matches{
+    justify-items: center;
+    align-items: center;
+    flex-wrap:wrap ;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: grid;
+    display: none;
+    margin-top: 30px;
+    width: 600px;
+}
+.block{
+    border-radius: 10px 0 0 0;
+    background: transparent;
+    width: 40px;
+    transition: 0.5s;
+}
+.block i{
+    margin-left: 5px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.block i:hover{
+    color: rgb(223, 56, 56);
+    font-size: 25px;
+}
+
+.group{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+}
+.b-g{
+    color: rgba(255, 53, 53, 0.589);
+    margin-top: 180px;
+    display: inline-block;
+    text-transform:uppercase;
+    padding: 10px 30px;
+    position: relative;
+    letter-spacing: 5px;
+    cursor: pointer;
+    background: transparent;
+    font-size: 20px;
+    font-family: Copperplate Gothic;
+    overflow: hidden;
+    border: solid ;
+    margin-left: 0px;
+    width:400px;
+    transition: 0.7s;
+}
+.b-g:hover{
+    color: rgb(0, 153, 255);
+    background: rgba(255, 53, 53, 0.589);
+    box-shadow: 0 0 20px;
+    transition-delay: 0.005s;
+}
+.b-m{
+    color: rgb(0, 153, 255);
+    margin-top: 30px;
+    display: inline-block;
+    text-transform:uppercase;
+    padding: 10px 30px;
+    position: relative;
+    letter-spacing: 5px;
+    cursor: pointer;
+    background: transparent;
+    font-size: 20px;
+    font-family: Copperplate Gothic;
+    overflow: hidden;
+    border: solid ;
+    margin-left: 0px;
+    width:400px;
+    transition: 0.7s;
+}
+.b-m:hover{
+    color: rgb(255, 0, 0);
+    background: rgba(23, 143, 255, 0.377);
+    box-shadow: 0 0 20px;
+    transition-delay: 0.005s;
+}
+.estf{
+    color: #008cff;
+    font-family:Rockwell;
+}
+.d-estf{
+    width: 500px;
+}
+.match{
+    display: flex;
+    margin-left:20px;
+    letter-spacing: 2px;
+    width: 580px;
+    border-radius: 40px 40px 0px 40px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    background: #50aefc;
+}
+.mp1{
+    width: 40%;
+    margin-left:20px;
+}
+.mp2{
+    width: 300px;
+    margin-right: -60px;
+}
+.mres{
+    margin-top: -8px;
+    width: 80px;
+    margin-left: 0px;
+    color: red;
+}
+.time{
+    margin-left: 34%;
+    color: #008cff;
+}
+.matchess{
+    margin-bottom: 50px;
+}
+.media{
+    margin-top: 20px;
+    width:280px;
+    margin-left: 50px;
+    transform: translate(10%);
+    letter-spacing: 15px;
+}
+.media a{
+    width: 40px;
+    height: 40px;
+    background:transparent;
+    border-radius: 50%;
+    justify-content: center;
+    transition: 0.4s;
+    font-size: 25px;
+}
+.insta{
+    color: black;
+}
+.insta:hover{
+    color: rgba(255, 0, 179, 0.657);   
+}
+.fb{
+    color:black;
+    
+}
+.fb:hover{
+    color: rgb(0, 140, 255);  
+}
+.tele{
+    color:black;
+}
+.tele:hover{
+    color: rgb(33, 105, 153);  
+} 
+
+.media a{
+    margin-right: 15px;
+}
+
+.media a i{
+    transition: 0.5s all;
+}
+.media a:hover > i {
+    transform: scale(1.3);
+}
+.sm{
+    margin-top: 30px;
+    display: grid;
+    width: 330px;
+    height: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: rgb(0, 132, 255) solid 1px;
+}
+.tag{
+    width: 330px;
+    border-left: rgb(0, 132, 255) solid 1px;
+    border-right: rgb(0, 132, 255) solid 1px;
+}
+.sm h3{
+    width: 90px;
+    margin-left:36%;
+    margin-bottom: 0px;
+    color: rgb(0, 132, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+}
+.be{
+    margin-top: 30px;
+    display: grid;
+    width: 330px;
+    height: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-left: 1px solid rgb(0, 132, 255);
+    border-right: 1px solid rgb(0, 132, 255);
+    border-bottom: 1px solid rgb(0, 132, 255);
+    
+}
+.t-be{
+    width: 300px;
+    height: 50px;
+    border-top: 1px solid rgb(0, 132, 255);
+    border-bottom: 1px solid rgb(0, 132, 255);
+}
+.t-be h3{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(0, 132, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 5px;
+}
+.p-be{
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+.p-be div{
+    width: 50%;
+    background: transparent;
+}
+.p2{
+    border-left: 1px solid rgb(0, 132, 255);
+}
+.p-be h5{
+    margin-top: -5px;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0px;
+}
+.p-be h6{
+    margin-top: -10px;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.568);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0px;
+}
+.p2 h6{
+    margin-left: 40px;
+}
+.p1 h6{
+    margin-left: 50px;
+}
+.p-be div div {
+    margin-top: -10px;
+    margin-left: 40px;
+    letter-spacing: 10px;
+}
+.fbinsta1{
+    font-size: 20px;
+    color: #000000;
+    transition: 0.5s;
+}
+.fbinsta1:hover{
+    color: rgb(255, 0, 140);
+}
+.fbinsta2{
+    font-size: 20px;
+    color: #000000;
+    transition: 0.5s;
+}
+.fbinsta2:hover{
+    color: rgb(0, 98, 255);
+}
+.star{
+    margin-top: 100px;
+}
